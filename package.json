@@ -1,6 +1,6 @@
 {
   "name": "react-native-light-sensor-android",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "React Native Light Sensor is a library that provides access to the device's light sensor, allowing you to:\nDetect the presence of a light sensor on the device.\nListen to real-time changes in the light sensor values.\nThis package is compatible with React Native versions up to 0.76.\nCurrently supports Android only.",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
