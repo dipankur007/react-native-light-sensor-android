@@ -1,7 +1,7 @@
 {
   "name": "react-native-light-sensor",
   "version": "0.1.0",
-  "description": "React Native Light Sensor is a cross-platform library that provides access to the device's light sensor, allowing you to:Detect the presence of a light sensor on the device.Retrieve the current light sensor value (illuminance in lux).Listen to real-time changes in the light sensor values.This package is compatible with React Native versions up to 0.76 and supports both Android and iOS platforms.",
+  "description": "React Native Light Sensor is a library that provides access to the device's light sensor, allowing you to:\nDetect the presence of a light sensor on the device.\nListen to real-time changes in the light sensor values.\nThis package is compatible with React Native versions up to 0.76.\nCurrently supports Android only.",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
@@ -21,11 +21,7 @@
     "src",
     "lib",
     "android",
-    "ios",
-    "cpp",
-    "*.podspec",
     "react-native.config.js",
-    "!ios/build",
     "!android/build",
     "!android/gradle",
     "!android/gradlew",
@@ -47,7 +43,6 @@
   },
   "keywords": [
     "react-native",
-    "ios",
     "android"
   ],
   "repository": {
@@ -64,14 +59,14 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.0.2",
+    "@commitlint/config-conventional": "^19.6.0",
     "@evilmartians/lefthook": "^1.5.0",
     "@react-native-community/cli": "15.0.1",
     "@react-native/eslint-config": "^0.73.1",
-    "@release-it/conventional-changelog": "^9.0.2",
+    "@release-it/conventional-changelog": "^9.0.3",
     "@types/jest": "^29.5.5",
     "@types/react": "^18.2.44",
-    "commitlint": "^17.0.2",
+    "commitlint": "^19.6.0",
     "del-cli": "^5.1.0",
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",

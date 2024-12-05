@@ -1,6 +1,12 @@
 # react-native-light-sensor
 
-React Native Light Sensor is a cross-platform library that provides access to the device's light sensor, allowing you to:Detect the presence of a light sensor on the device.Retrieve the current light sensor value (illuminance in lux).Listen to real-time changes in the light sensor values.This package is compatible with React Native versions up to 0.76 and supports both Android and iOS platforms.
+React Native Light Sensor is a library that provides access to the device's light sensor, allowing you to:
+
+Detect the presence of a light sensor on the device.
+Listen to real-time changes in the light sensor values.
+
+This package is compatible with React Native versions up to 0.76. 
+Currently supports Android only.
 
 ## Installation
 
@@ -12,11 +18,21 @@ npm install react-native-light-sensor
 
 
 ```js
-import { multiply } from 'react-native-light-sensor';
+import LightSensorModule from 'react-native-light-sensor';
 
 // ...
 
-const result = multiply(3, 7);
+LightSensorModule.isSensorAvailable()
+    .then((available) => {})
+    .catch((err) => {});
+
+const startListening = () => {
+    LightSensorModule.startListening((sensorValue) => {});
+};
+
+const stopListening = () => {
+    LightSensorModule.stopListening();
+};
 ```
 
 

@@ -2,7 +2,11 @@ import type { TurboModule } from 'react-native';
 import { TurboModuleRegistry } from 'react-native';
 
 export interface Spec extends TurboModule {
-  multiply(a: number, b: number): number;
+  isSensorAvailable(): Promise<boolean>;
+  startListening(): void;
+  stopListening(): void;
 }
 
-export default TurboModuleRegistry.getEnforcing<Spec>('LightSensor');
+const LightSensor = TurboModuleRegistry.getEnforcing<Spec>('LightSensor');
+
+export default LightSensor;
