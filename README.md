@@ -11,7 +11,7 @@ Currently supports Android only.
 ## Installation
 
 ```sh
-npm install react-native-light-sensor
+npm install react-native-light-sensor-android
 ```
 
 ## Usage
