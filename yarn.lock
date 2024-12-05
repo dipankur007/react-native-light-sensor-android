@@ -10423,28 +10423,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-light-sensor-example@workspace:example":
+"react-native-light-sensor-android@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-native-light-sensor-example@workspace:example"
-  dependencies:
-    "@babel/core": ^7.25.2
-    "@babel/preset-env": ^7.25.3
-    "@babel/runtime": ^7.25.0
-    "@react-native-community/cli": 15.0.1
-    "@react-native-community/cli-platform-android": 15.0.1
-    "@react-native-community/cli-platform-ios": 15.0.1
-    "@react-native/babel-preset": 0.76.3
-    "@react-native/metro-config": 0.76.3
-    "@react-native/typescript-config": 0.76.3
-    react: 18.3.1
-    react-native: 0.76.3
-    react-native-builder-bob: ^0.34.0
-  languageName: unknown
-  linkType: soft
-
-"react-native-light-sensor@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-native-light-sensor@workspace:."
+  resolution: "react-native-light-sensor-android@workspace:."
   dependencies:
     "@commitlint/config-conventional": ^19.6.0
     "@evilmartians/lefthook": ^1.5.0
@@ -10469,6 +10450,25 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
+  languageName: unknown
+  linkType: soft
+
+"react-native-light-sensor-example@workspace:example":
+  version: 0.0.0-use.local
+  resolution: "react-native-light-sensor-example@workspace:example"
+  dependencies:
+    "@babel/core": ^7.25.2
+    "@babel/preset-env": ^7.25.3
+    "@babel/runtime": ^7.25.0
+    "@react-native-community/cli": 15.0.1
+    "@react-native-community/cli-platform-android": 15.0.1
+    "@react-native-community/cli-platform-ios": 15.0.1
+    "@react-native/babel-preset": 0.76.3
+    "@react-native/metro-config": 0.76.3
+    "@react-native/typescript-config": 0.76.3
+    react: 18.3.1
+    react-native: 0.76.3
+    react-native-builder-bob: ^0.34.0
   languageName: unknown
   linkType: soft
 
