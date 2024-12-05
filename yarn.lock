@@ -10423,9 +10423,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-light-sensor-android-android@workspace:.":
+"react-native-light-sensor-android@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-native-light-sensor-android-android@workspace:."
+  resolution: "react-native-light-sensor-android@workspace:."
   dependencies:
     "@commitlint/config-conventional": ^19.6.0
     "@evilmartians/lefthook": ^1.5.0
